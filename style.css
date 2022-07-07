@@ -31,7 +31,50 @@ main{
     gap: 100px;
 }
 
+.settings{
+    border: 6px solid #BC986A;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
+.setting{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+button{
+    padding: 12px;
+    border: none;
+    background-color: #DAAD86;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.chooseColor, 
+.chooseGrid{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#random_rba_brush{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #659DBD;
+}
 /* FOOTER */
 footer{
     flex: 0 0 auto;
